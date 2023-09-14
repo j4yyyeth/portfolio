@@ -1,30 +1,18 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import blogData from "../../blogData.json";
 export async function getStaticPaths() {
-  return [
-    {
-      params: { id: 1 },
-      props: {
-        blogTitle: "Title",
-        blogContent:
-          "lorem ipsum dolor",
+  return blogData.flatMap((blog, i) => {
+    return [
+      {
+        params: { id: i + 1 },
+        props: {
+          blogTitle: blog.title,
+          blogContent: blog.content,
+        },
       },
-    },
-    // {
-    //   params: { id: 2 },
-    //   props: {
-    //     blogTitle: "Title",
-    //     blogContent: "lorem ipsum dolor",
-    //   },
-    // },
-    // {
-    //   params: { id: 3 },
-    //   props: {
-    //     blogTitle: "Title",
-    //     blogContent: "lorem ipsum dolor",
-    //   },
-    // },
-  ];
+    ];
+  });
 }
 const { blogTitle } = Astro.props;
 const { blogContent } = Astro.props;
