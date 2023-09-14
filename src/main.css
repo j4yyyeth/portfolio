@@ -218,6 +218,7 @@ nav a {
         letter-spacing: 3px;
         font-size: 3rem;
         margin: 0;
+        margin-top: 4rem;
     }
 
     .logo-img-name {
@@ -235,9 +236,10 @@ nav a {
     background-color: rgba(178, 178, 178, 0.3);
     border-radius: 30% 30% 30% 30% / 20% 80% 20% 80%;
     animation: borderChange 3s infinite;
-    height: 60vh;
-    padding: 5rem;
+    height: 100vh;
+    padding: 1rem;
     gap: 10rem;
+    margin: 1rem;
 }
 
 @keyframes borderChange {
@@ -302,6 +304,18 @@ nav a {
     margin: 10px;
 }
 
+@media screen and (max-width: 1300px) {
+    .about-section {
+        margin-bottom: 35rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-section {
+        margin-top: 12rem;
+    }
+}
+
 .icon-container {
     position: relative;
     display: inline-block;
@@ -354,7 +368,7 @@ nav a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 8rem;
+        gap: 2rem;
     }
 }
 
@@ -820,7 +834,7 @@ footer {
 @media screen and (max-width: 1300px) {
     footer {
         width: 100%;
-        margin-top: 30rem;
+        margin-top: 21rem;
     }
 }
 
