@@ -174,6 +174,59 @@ nav a {
     border-radius: 50%;
 }
 
+
+@media screen and (max-width: 1200px) {
+    .hero-section {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 901px) {
+    .hero-section {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pfp-socials img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .hero-text h1 {
+        letter-spacing: 3px;
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .logo-img-name {
+        height: 50px;
+        width: 50px;
+        vertical-align: text-top;
+    }
+}
+
 .about-section {
     display: flex;
     flex-direction: column;
@@ -292,7 +345,17 @@ nav a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .three-projects-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+    }
 }
 
 #contact-form {
@@ -719,6 +782,31 @@ form input {
     align-items: center;
 }
 
+@media screen and (max-width: 477px) {
+    .hero {
+        display: inline-block;
+        position: relative;
+        width: 350px;
+        min-width: 350px;
+        height: 350px;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero-links {
+        left: 0px;
+    }
+
+    .hero-description h3 {
+        font-size: 1rem;
+    }
+
+    .hero-description p {
+        font-size: .85rem;
+    }
+}
+
 /*  */
 /*  */
 /*  */
@@ -727,6 +815,13 @@ form input {
 
 footer {
     width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    footer {
+        width: 100%;
+        margin-top: 30rem;
+    }
 }
 
 .footer-bottom {
