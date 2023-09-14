@@ -1,0 +1,22 @@
+---
+const { title } = Astro.props;
+const { preview } = Astro.props;
+const { date } = Astro.props;
+const { tag } = Astro.props;
+const { img } = Astro.props;
+const { link } = Astro.props;
+---
+
+<div class="card-grid-space">
+  <a class="card" href=`${link}` style=`--bg-img: url(${img})`>
+    <div>
+      <h1>{title}</h1>
+      <p>{preview}</p>
+      <div class="date">{date}</div>
+      <div class="tags">
+        <div class="tag">{tag}</div>
+      </div>
+    </div>
+  </a>
+</div>
+

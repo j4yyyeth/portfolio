@@ -1,9 +1,35 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import BlogCard from "../components/BlogCard.astro";
 ---
 
 <Layout title="Blog" name="JH Blog" content="Jacob Handwerger Blog page">
-  <main class="page-container">
-    <h1>Blog Page</h1>
+  <main class="page-container blogs-bg">
+    <section class="cards-wrapper">
+      <BlogCard
+        title="Title"
+        preview="..."
+        date="Sep 14 2023"
+        tag="Tag"
+        img=""
+        link="/blog/1"
+      />
+      <BlogCard
+        title="Coming Soon"
+        preview="..."
+        date="*** ** 2023"
+        tag=""
+        img=""
+        link=""
+      />
+      <BlogCard
+        title="Coming Soon"
+        preview="..."
+        date="*** ** 2023"
+        tag=""
+        img=""
+        link=""
+      />
+    </section>
   </main>
 </Layout>

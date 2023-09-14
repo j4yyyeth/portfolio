@@ -1,0 +1,38 @@
+---
+import Layout from "../../layouts/Layout.astro";
+export async function getStaticPaths() {
+  return [
+    {
+      params: { id: 1 },
+      props: {
+        blogTitle: "Title",
+        blogContent:
+          "lorem ipsum dolor",
+      },
+    },
+    // {
+    //   params: { id: 2 },
+    //   props: {
+    //     blogTitle: "Title",
+    //     blogContent: "lorem ipsum dolor",
+    //   },
+    // },
+    // {
+    //   params: { id: 3 },
+    //   props: {
+    //     blogTitle: "Title",
+    //     blogContent: "lorem ipsum dolor",
+    //   },
+    // },
+  ];
+}
+const { blogTitle } = Astro.props;
+const { blogContent } = Astro.props;
+---
+
+<Layout title={blogTitle} name={blogTitle} content={blogContent}>
+  <main class="page-container blog-post">
+    <h1>{blogTitle}</h1>
+    <p>{blogContent}</p>
+  </main>
+</Layout>
