@@ -1,0 +1,26 @@
+---
+interface Props {
+  title: string;
+  name: string;
+  content: string;
+}
+import "../main.css";
+import Navbar from "../components/Navbar";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name={Astro.props.name} content={Astro.props.content} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="./jlogo.png" />
+    <meta name="generator" content={Astro.generator} />
+	<link rel="stylesheet" href="./main.css" />
+    <title>{Astro.props.title}</title>
+  </head>
+  <body>
+	<Navbar client:load />
+    <slot />
+  </body>
+</html>
