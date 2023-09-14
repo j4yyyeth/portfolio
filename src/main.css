@@ -406,6 +406,12 @@ nav a {
     }
 }
 
+@media screen and (max-width: 515px) {
+    .typing-demo {
+        font-size: 1.3rem;
+    }
+}
+
 /*  */
 /*  */
 /*  */
