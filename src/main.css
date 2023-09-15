@@ -505,6 +505,16 @@ nav a {
 
 .page-container-about {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 5rem;
+}
+
+.page-container-about p {
+    line-height: 2.2rem;
+    padding: 1rem;
 }
 
 /*  */
@@ -518,6 +528,10 @@ nav a {
     justify-content: start;
     align-items: center;
     gap: 5rem;
+}
+
+.project-post p {
+    line-height: 2.2rem;
 }
 
 .project-post .proj-description {
