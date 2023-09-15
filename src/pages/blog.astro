@@ -4,7 +4,11 @@ import BlogCard from "../components/BlogCard.jsx";
 import blogData from "../blogData.json";
 ---
 
-<Layout title="Blog" name="Jacob Handwerger Blog" content="Jacob Handwerger Blog page">
+<Layout
+  title="Blog"
+  name="Jacob Handwerger Blog"
+  content="Jacob Handwerger Blog page"
+>
   <main class="page-container blogs-bg">
     <section class="cards-wrapper">
       {
@@ -15,7 +19,7 @@ import blogData from "../blogData.json";
               preview={blog.preview}
               date={blog.date}
               tag={blog.tag}
-              img={blog.img}
+              img={`../../public/${blog.img}`}
               link={`/blog/${i + 1}`}
               published={blog.published}
             />
