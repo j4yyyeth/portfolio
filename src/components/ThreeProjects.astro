@@ -1,7 +1,8 @@
 ---
-import GithubBtn from "../components/buttons/GithubBtn.astro";
-import LiveSiteBtn from "../components/buttons/LiveSiteBtn.astro";
+import GithubBtn from "./buttons/GithubBtn.astro";
+import LiveSiteBtn from "./buttons/LiveSiteBtn.astro";
 import ProjectReadBtn from "./buttons/ProjectReadBtn.astro";
+import projectData from "../projectData.json";
 ---
 
 <div class="three-projects-container">
@@ -20,7 +21,7 @@ import ProjectReadBtn from "./buttons/ProjectReadBtn.astro";
       <GithubBtn link="https://github.com/j4yyyeth/vigym-client" />
       <LiveSiteBtn link="https://vigym.netlify.app" />
     </div>
-    <ProjectReadBtn link="/vigym" />
+    <ProjectReadBtn link="/project/ViGym" />
   </div>
   <div class="second hero">
     <img class="hero-profile-img" src="./pragtoHome.png" alt="pragto" />
@@ -37,7 +38,7 @@ import ProjectReadBtn from "./buttons/ProjectReadBtn.astro";
       <GithubBtn link="https://github.com/j4yyyeth/pragto-client" />
       <LiveSiteBtn link="https://pragto.netlify.app" />
     </div>
-    <ProjectReadBtn link="/pragto" />
+    <ProjectReadBtn link="/project/Pragto" />
   </div>
   <div class="third hero">
     <img
@@ -58,6 +59,6 @@ import ProjectReadBtn from "./buttons/ProjectReadBtn.astro";
       <GithubBtn link="https://github.com/j4yyyeth/pirate-game" />
       <LiveSiteBtn link="https://j4yyyeth.github.io/pirate-game" />
     </div>
-    <ProjectReadBtn link="/buccaneer-barrage" />
+    <ProjectReadBtn link="/project/Buccaneer-Barrage" />
   </div>
 </div>

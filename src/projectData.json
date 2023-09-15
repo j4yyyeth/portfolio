@@ -1,0 +1,50 @@
+[
+  {
+    "name": "ViGym",
+    "previewDescription": "A full stack fitness web-app",
+    "img": "./vigymHome.png",
+    "tech": [
+      "Javascript",
+      "Typescript",
+      "React",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Tailwind",
+      "CSS"
+    ],
+    "fullDescription": "ViGym ...",
+    "github": "https://github.com/j4yyyeth/vigym-client",
+    "website": "https://vigym.netlify.app"
+  },
+  {
+    "name": "Pragto",
+    "previewDescription": "A gamified todo web-app",
+    "img": "./pragtoHome.png",
+    "tech": [
+      "Javascript",
+      "React",
+      "Node",
+      "Express",
+      "MongoDB",
+      "CSS"
+    ],
+    "fullDescription": "Pragto ...",
+    "github": "https://github.com/j4yyyeth/pragto-client",
+    "website": "https://pragto.netlify.app"
+  },
+  {
+    "name": "Buccaneer-Barrage",
+    "previewDescription": "A pirate cannon shooter game",
+    "img": "./buccaneerBarrageHome.png",
+    "tech": [
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Canvas"
+    ],
+    "fullDescription": "Buccaneer Barrage ...",
+    "github": "https://github.com/j4yyyeth/pirate-game",
+    "website": "https://j4yyyeth.github.io/pirate-game"
+  }
+]

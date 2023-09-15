@@ -1,0 +1,50 @@
+---
+import GithubBtn from "../../components/buttons/GithubBtn.astro";
+import LiveSiteBtn from "../../components/buttons/LiveSiteBtn.astro";
+import Layout from "../../layouts/Layout.astro";
+import projectData from "../../projectData.json";
+export async function getStaticPaths() {
+  return projectData.flatMap((project) => {
+    return [
+      {
+        params: { name: project.name },
+        props: {
+          projectName: project.name,
+          projectDescription: project.fullDescription,
+          techUsed: project.tech,
+          projectImg: project.img,
+          projectGithub: project.github,
+          projectSite: project.website,
+        },
+      },
+    ];
+  });
+}
+const { projectName } = Astro.props;
+const { projectDescription } = Astro.props;
+const { techUsed } = Astro.props;
+const { projectImg } = Astro.props;
+const { projectGithub } = Astro.props;
+const { projectSite } = Astro.props;
+---
+
+<Layout title={projectName} name={projectName} content={projectDescription}>
+  <main class="page-container project-post">
+    <h1>{projectName}</h1>
+    <div class="tech-used">
+      {
+        techUsed.map((tech: string) => {
+          return <p>{tech}</p>;
+        })
+      }
+    </div>
+    <p>{projectDescription}</p>
+    <img src={projectImg} alt={projectName} />
+    <div class="social-buttons-footer">
+      <>
+        <GithubBtn link={projectGithub} />
+        <LiveSiteBtn link={projectSite} />
+      </>
+    </div>
+  </main>
+</Layout>
