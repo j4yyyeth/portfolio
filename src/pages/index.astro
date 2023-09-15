@@ -8,6 +8,7 @@ import GithubBtn from "../components/buttons/GithubBtn.astro";
 import LinkedInBtn from "../components/buttons/LinkedInBtn.astro";
 import GmailBtn from "../components/buttons/GmailBtn.astro";
 import DownloadResume from "../components/DownloadResume.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <Layout title="Home" name="JH Home" content="Jacob Handwerger Home page">
@@ -71,33 +72,5 @@ import DownloadResume from "../components/DownloadResume.astro";
       <CtaBtn text="view more" link="/projects" />
     </section>
   </main>
-  <footer>
-    <svg
-      viewBox="0 -20 700 110"
-      width="100%"
-      height="180"
-      preserveAspectRatio="none"
-    >
-      <path
-        transform="translate(0, -20)"
-        d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700"
-        fill="#ff3300"></path>
-      <path
-        d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z"
-        fill="#f7f7f7"></path>
-    </svg>
-    <div class="footer-bottom">
-      <Contact client:load />
-    </div>
-    <div class="social-buttons-footer">
-      <>
-        <GithubBtn link="https://github.com/j4yyyeth" />
-        <LinkedInBtn />
-        <GmailBtn />
-      </>
-      <>
-        <DownloadResume />
-      </>
-    </div>
-  </footer>
+  <Footer />
 </Layout>

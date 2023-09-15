@@ -470,6 +470,23 @@ nav a {
     }
 }
 
+.projects-page-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .projects-page-container {
+        margin-top: 20rem;
+    }
+}
+
+.page-container-about {
+    height: 100vh;
+}
+
 /*  */
 /*  */
 /*  */
