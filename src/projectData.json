@@ -2,7 +2,7 @@
   {
     "name": "ViGym",
     "previewDescription": "A full stack fitness web-app",
-    "img": "./vigymHome.png",
+    "img": "../public/vigymHome.png",
     "tech": [
       "Javascript",
       "Typescript",
