@@ -24,8 +24,6 @@ const { projectName } = Astro.props;
 const { projectDescription } = Astro.props;
 const { techUsed } = Astro.props;
 const { projectImg } = Astro.props;
-const { projectGithub } = Astro.props;
-const { projectSite } = Astro.props;
 ---
 
 <Layout title={projectName} name={projectName} content={projectDescription}>
@@ -38,13 +36,7 @@ const { projectSite } = Astro.props;
         })
       }
     </div>
-    <p>{projectDescription}</p>
-    <img src={projectImg} alt={projectName} />
-    <div class="social-buttons-footer">
-      <>
-        <GithubBtn link={projectGithub} />
-        <LiveSiteBtn link={projectSite} />
-      </>
-    </div>
+    <p class="proj-description">{projectDescription}</p>
+    <img src=`../../../public/${projectImg}` alt={projectName} />
   </main>
 </Layout>

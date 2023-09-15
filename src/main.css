@@ -379,6 +379,25 @@ nav a {
     display: inline-block;
 }
 
+.tech-used {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .3rem;
+}
+
+.tech-used p {
+    background-color: #2b3743;
+    color: #fff;
+    padding: 3px;
+    box-shadow: 0px 0px 4px #00000027;
+    width: 88px;
+    text-align: center;
+    border-radius: 15px;
+}
+
 .tooltip {
     visibility: hidden;
     background-color: #2b3743;
@@ -473,6 +492,7 @@ nav a {
 .projects-page-container {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -490,6 +510,24 @@ nav a {
 /*  */
 /*  */
 /*  */
+
+.project-post {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 5rem;
+}
+
+.project-post .proj-description {
+    padding: 1rem;
+}
+
+.project-post img {
+    height: 75vh;
+    width: 80vw;
+}
 
 .blog-soon {
     height: 100vh;

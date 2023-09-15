@@ -13,7 +13,7 @@
       "Tailwind",
       "CSS"
     ],
-    "fullDescription": "ViGym ...",
+    "fullDescription": "ViGym was the second MERN stack web-app I built, however, the project was an exploration into TypeScript. As I familiarized myself with types, interfaces, and the overall advantages of TypeScript, I developed an appreciation for the robustness and predictability it introduces into the software development process from start to finish. Simultaneously, I also embarked on my journey with Tailwind CSS. The utility-first CSS framework brought about a completely new perspective towards managing styles and designs while also ensuring a visually appealing UI. Using and integrating two incredible APIs (the OpenAI API and the exerciseDB API), I was able to harness them to let users view 1300+ exercises as well as adding an AI trainer, powered by OpenAI, that leverages user workout data to provide personalized fitness advice. In the pipeline, I am going to add an e-commerce section, as well as improve the AI trainer, ensuring it is even more attuned to individual fitness needs. Building ViGym has been an enriching blend of learning new technologies, applying them to real-world situations, and visualizing the exciting potential of the future.",
     "github": "https://github.com/j4yyyeth/vigym-client",
     "website": "https://vigym.netlify.app"
   },
@@ -21,15 +21,8 @@
     "name": "Pragto",
     "previewDescription": "A gamified todo web-app",
     "img": "./pragtoHome.png",
-    "tech": [
-      "Javascript",
-      "React",
-      "Node",
-      "Express",
-      "MongoDB",
-      "CSS"
-    ],
-    "fullDescription": "Pragto ...",
+    "tech": ["Javascript", "React", "Node", "Express", "MongoDB", "CSS"],
+    "fullDescription": "Pragto was the first full stack web-app I built using the MERN stack, serving as a pivotal moment in my growth as a developer. It was here where I fully understood the connection between each MERN technology (MongoDB, Express.js, React, and Node.js). In the process, I also gained a wealth of knowledge about data modeling and key React concepts, enriching my understanding of how to structure and manage applications. Working on Pragto was not just a journey through learning new technologies, but also a unique opportunity to bring my creativity to life. It was exhilarating to see my idea translate into a practical solution from start to finish. Looking ahead with Pragto, I want to add a feature that supports team collaborations, providing an interactive and fun way for groups to manage their tasks. I am excited about incorporating more elements of gamification to make task management not just a necessity, but an enjoyable experience. Another aspect I am keen to explore is the concept of competitions, which could introduce an exciting competitive edge to everyday tasks. Overall, building Pragto was a significant milestone in my development journey, and I am eager to continue enhancing it in the future, pushing boundaries, learning, and growing as a developer.",
     "github": "https://github.com/j4yyyeth/pragto-client",
     "website": "https://pragto.netlify.app"
   },
@@ -37,13 +30,8 @@
     "name": "Buccaneer-Barrage",
     "previewDescription": "A pirate cannon shooter game",
     "img": "./buccaneerBarrageHome.png",
-    "tech": [
-      "Javascript",
-      "HTML",
-      "CSS",
-      "Canvas"
-    ],
-    "fullDescription": "Buccaneer Barrage ...",
+    "tech": ["Javascript", "HTML", "CSS", "Canvas"],
+    "fullDescription": "Buccaneer Barrage was my first ever project using vanilla javascript, html, css, and canvas. While building BB, I learned a lot about OOP, and it helped me nail down all of the fundamental principals of javascript. It also showed me how fun building canvas games can be, and whenever I need a refresher on OOP, I think building a game is great practice.",
     "github": "https://github.com/j4yyyeth/pirate-game",
     "website": "https://j4yyyeth.github.io/pirate-game"
   }
