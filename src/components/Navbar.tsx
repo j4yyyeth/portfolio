@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="navbar-container">
         <div className="logo-container">
           <a href="/">
-            <img className="logo-img-navbar" src="./jlogo.png" alt="Logo" />
+            <img className="logo-img-navbar" src="../../public/jlogo.png" alt="Logo" />
           </a>
         </div>
         <div className={`nav-links ${showMenu ? "show" : ""}`}>
