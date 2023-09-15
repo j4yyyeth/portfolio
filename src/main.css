@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Bebas+Neue&family=Great+Vibes&family=Inter&family=Montserrat&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Bebas+Neue&family=Great+Vibes&family=Inter&family=Merriweather&family=Montserrat&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -426,7 +430,7 @@ nav a {
     }
 }
 
-#contact-form {
+#contact {
     text-align: center;
 }
 

@@ -16,7 +16,7 @@ export default function Contact() {
     e.target.reset();
   };
   return (
-    <form id="contact-form" ref={form} onSubmit={handleSubmit}>
+    <form id="contact" ref={form} onSubmit={handleSubmit}>
       {sent ? (
         <></>
       ) : (
