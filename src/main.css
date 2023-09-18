@@ -23,13 +23,6 @@ img {
     pointer-events: none;
 }
 
-/* 
-White: #E9ECE6
-Gray: #BCCBC9
-Black: #2b3743
-Red Logo: #ff3300
-*/
-
 a {
     text-decoration: none;
 }
@@ -66,6 +59,10 @@ nav.scrolled {
 
 .logo-container {
     margin-left: 2rem;
+}
+
+.logo-container a {
+    padding-top: 2rem;
 }
 
 .nav-links {
@@ -501,20 +498,6 @@ nav a {
     .projects-page-container {
         margin-top: 20rem;
     }
-}
-
-.page-container-about {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 5rem;
-}
-
-.page-container-about p {
-    line-height: 2.2rem;
-    padding: 1rem;
 }
 
 /*  */
