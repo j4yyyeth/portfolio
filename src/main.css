@@ -519,6 +519,7 @@ nav a {
 
 .project-post .proj-description {
     padding: 1rem;
+    width: 80vw;
 }
 
 .project-post img {
