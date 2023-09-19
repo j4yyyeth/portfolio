@@ -1,12 +1,12 @@
 [
   {
-    "title": "Coming Soon",
-    "preview": ". . .",
-    "date": "*** ** 2023",
-    "tag": "...",
-    "img": "/jlogo.png",
-    "content": "",
-    "published": "false"
+    "title": "The Climb",
+    "preview": "It's been about 6 months since I've ...",
+    "date": "Sep 19 2023",
+    "tag": "Improvement",
+    "img": "https://wallpapers.com/images/hd/vagabond-mountains-t6p81gv93u7e0fh0.jpg",
+    "content": "It's been about 6 months since I graduated from my coding bootcamp and seriously started working towards my goal of becoming a software engineer. While I've made great progress, gained experience in an internship position, and have a few cool opportunities ahead, I still have a ways to go. That's the best part, though. This is a journey of endless learning, a practice I am very committed to. So in this post, I want to list a few things I'm looking forward to and starting to do. First, reading more books on coding. I've always enjoyed reading, but, surprisingly, I haven't actually read any coding books yet. I do have a copy of Clean Code by Robert C. Martin arriving tomorrow, September 20th, which is why I decided to post this on September 19th! I'm excited to get started on it, as it's been recommended to me. It will be an insightful and enriching read, and my knowledge of overall programming fundamentals will be tested. Furthermore, I will also be acquiring a copy of either Grokking Algorithms or Introduction to Algorithms. My algorithmic skills need improvement. As a coding bootcamp graduate, one of the downsides compared to a CS degree is the overall coverage of algorithms. Essentially, a CS degree will equip you with a heavy amount of DS & algo knowledge, while a coding bootcamp gives you the practical skills necessary to code immediately, and, in my experience, learn other languages and frameworks with ease. While I've tackled a handful of LeetCode problems, there's nothing like a book when it comes to learning something new. Algorithms are crucial because they provide a structured foundation for solving complex problems efficiently, and a deep understanding of algorithms is indispensable for building robust and scalable software. Second, open source software. Open source is something I've always noted on the side, but it's become more interesting based on the sheer fact that so many popular projects are open sourced. I can probably make a whole post on why I love open source and its policies, but I'll keep it brief for this one. Open source is great because it is transparent and provides opportunities while also allowing you to give back. There are so many projects to choose from, and I'm going to get started very soon. Lastly, refactoring past projects and finishing up on one I've been working on for the past few weeks. The more I progress as a developer, the more I realize the importance of refactoring and code optimization. It has become evident to me, especially in my past projects. Not only can performance be enhanced, but having someone take a glimpse at your code and being able to understand it clearly is a must for larger projects. \"Code is like humor. When you have to explain it, it's bad\" - Cory House. Regarding my project, I'm almost done working on it and getting it deployed. In conclusion, I am building, learning, and I feel like I'm improving every day. I'm confident that more coding books, open source work, and refactoring will elevate my skills further.",
+    "published": "true"
   },
   {
     "title": "Coming Soon",
