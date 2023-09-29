@@ -19,7 +19,7 @@
   },
   {
     "name": "Pragto",
-    "previewDescription": "A gamified todo web-app",
+    "previewDescription": "A gamified productivity web-app",
     "img": "/pragtoHome.png",
     "tech": ["Javascript", "React", "Node", "Express", "MongoDB", "CSS"],
     "fullDescription": "Pragto was the first full stack web-app I built using the MERN stack, serving as a pivotal moment in my growth as a developer. It was here where I fully understood the connection between each MERN technology (MongoDB, Express.js, React, and Node.js), and where frontend and backend harnessed together really clicked. In the process, I also gained a wealth of knowledge about data modeling and key React concepts, enriching my understanding of how to structure and manage applications. Working on Pragto was not just a journey through learning new technologies, but also a unique opportunity to bring my creativity to life. It was exhilarating to see my idea translate into a practical solution from start to finish. Looking ahead with Pragto, I want to add a feature that supports team collaborations, providing an interactive and fun way for groups to manage their tasks. I am excited about incorporating more elements of gamification to make task management not just a necessity, but an enjoyable experience. Another aspect I am keen to explore is the concept of competitions, which could introduce an exciting competitive edge to everyday tasks. Overall, building Pragto was a significant milestone in my development journey, and I am eager to continue enhancing it in the future, pushing boundaries, learning, and growing as a developer.",
@@ -27,12 +27,12 @@
     "website": "https://pragto.netlify.app"
   },
   {
-    "name": "Buccaneer-Barrage",
+    "name": "Mugiwara",
     "previewDescription": "A pirate cannon shooter game",
     "img": "/buccaneerBarrageHome.png",
     "tech": ["Javascript", "HTML", "CSS", "Canvas"],
-    "fullDescription": "Buccaneer Barrage was my first-ever project using vanilla JavaScript, HTML, CSS, and Canvas. While building BB, I learned a lot about OOP and how important it is in software development. It's robust, scalable, and it helped me nail down all of the fundamental principles of JavaScript. It also showed me how fun building canvas games can be, and whenever I need a refresher on OOP, I think building a game is great practice.",
-    "github": "https://github.com/j4yyyeth/pirate-game",
-    "website": "https://j4yyyeth.github.io/pirate-game"
+    "fullDescription": "Mugiwara was my first-ever project using vanilla JavaScript, HTML, CSS, and Canvas. While building it, I learned a lot about OOP and how important it is in software development. It's robust, scalable, and it helped me nail down all of the fundamental principles of JavaScript. It also showed me how fun building canvas games can be, and whenever I need a refresher on OOP, I think building a game is great practice.",
+    "github": "https://github.com/j4yyyeth/mugiwara",
+    "website": "https://mug1wara.netlify.app"
   }
 ]
