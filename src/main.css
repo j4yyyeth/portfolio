@@ -75,7 +75,7 @@ nav a {
     font-size: 1.5rem;
     font-weight: 900;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
     transition: background 0.5 ease;
     color: #2b3743;
 }
@@ -271,6 +271,7 @@ nav a {
 
 .about-me p {
     width: 80%;
+    font-size: 20px;
 }
 
 .about-skills {
