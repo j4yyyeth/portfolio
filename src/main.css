@@ -1224,3 +1224,12 @@ footer {
     line-height: 2.2rem;
     font-size: 1.2rem
 }
+
+@media (max-width: 650px) {
+    .languages-flex {
+        padding: 0 2rem 4rem 2rem;
+    }
+    .language {
+        margin: 3px;
+    }
+}
